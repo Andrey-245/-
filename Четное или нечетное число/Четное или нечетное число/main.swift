@@ -7,11 +7,11 @@
 
 import Foundation
 
-print("Введите число")
-var chislo = Int(readLine(strippingNewline: true)!)!
-
-if (chislo % 2) == 0 {
+func chislo (_ chislo1: Int) {
+if (chislo1 % 2) == 0 {
     print("Число четное")
 }else{
     print("Число нечетное")
 }
+}
+chislo(118)
