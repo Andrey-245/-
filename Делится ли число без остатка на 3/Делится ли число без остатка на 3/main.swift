@@ -7,12 +7,12 @@
 
 import Foundation
 
-print("Введите число")
-var chislo = Int(readLine(strippingNewline: true)!)!
+func num3 (_ number3: Int) {
 
-if chislo % 3 == 0 {
+if number3 % 3 == 0 {
     print("Число делится на 3 без остатка")
 }else{
     print("Число не делится на 3 без остатка")
 }
-
+}
+num3(117)
